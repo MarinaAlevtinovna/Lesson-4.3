@@ -107,7 +107,6 @@ class ZooManager:
     def list_animals(self):
         self.animal_manager.list()
 
-# Пример использования:
 zoo_manager = ZooManager('Московский зоопарк')
 zoo_manager.add_human('Попов Антон', 'Охранник')
 zoo_manager.add_human('Сердюков Егор', 'Уборщик вальеров')
